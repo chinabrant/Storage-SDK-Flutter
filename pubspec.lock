@@ -121,14 +121,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.2.1+1"
-  dio_http_cache_lts:
+  dio_http_cache:
     dependency: "direct main"
     description:
-      name: dio_http_cache_lts
-      sha256: "331da4c8444203bd3f20db1dc8a560969524a6b6e32e9ba16dad18f992a0b2b3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.1"
+      path: "."
+      ref: master
+      resolved-ref: "553488ace51871a4c6559445dce3da602bcb3c08"
+      url: "https://github.com/chinabrant/dio-http-cache.git"
+    source: git
+    version: "0.3.0"
   fake_async:
     dependency: transitive
     description:
